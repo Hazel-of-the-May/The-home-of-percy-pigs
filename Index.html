@@ -17,19 +17,28 @@
    <h1>Welcome to Madird</h1>
 </header>
 
-<nav>
-  <ul class='nav'>
-      <li><a href="Index.html">Home</a></li>
-      <li><a href="AboutPage.html">About Us</a></li>
-      <li><a href="ContactPage.html">Contact us</a></li>
-</nav>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Index.html">Home</a>
+  <a href="AboutPage.html">About us</a>
+  <a href="ContactPage.html">Contact us</a>
+
+</div>
+
+<span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; More Information </span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 
 <div class="QuestionStatement">
-  <h1>Welcome to Madrid's home finder for City Newbies</h1>
-  <h3>Don't know Madrid?
-    <br>Know where you're going to work?
-    <br>Don't know where to live?
-  </h3>
+
   <h3>Type in your work address and we can help you find where you could live!</h3>
 
 </div>
