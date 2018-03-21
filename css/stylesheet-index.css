@@ -41,8 +41,8 @@ a:active {
     text-align: center;
 }
 
-header {background: #66b3ff;color:white;}
-footer {background: #66b3ff;color:white;}
+header {background: black;color:white;}
+footer {background: #aaa;color:white;}
 .nav {background:#eee;}
 
 .nav ul {
@@ -110,4 +110,56 @@ body {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+.Header{
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  background-color: black;
+  -webkit-flex: 1 100%;
+  flex: 1 100%;
+}
+
+.initialquestion {
+  font-size: 25px;
+  text-align:center;
+  display:block;
+}
+
+.Questions {
+  font-size: 20px;
+  text-align:center;
+  display:block;
+}
+
+.Options {
+  font-size: 18px;
+  text-align:center;
+  display:block;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:350px;
+    height:200px;
+    border-radius:8px;
+    border: 8px solid #eee;
+}
+
+.input {
+  display: block;
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 8px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+.multiplechoice {
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
 }
