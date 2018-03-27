@@ -26,21 +26,29 @@ prettier and less childlike- need something more snazzy....-->
 <!-- this navigation part is what opens the side bar open-->
 <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; More Information </span>
 
-<script>
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
-</script>
 <!-- end of script and this is what the body will contain, all these bits link to the css page-->
 <div class="QuestionStatement">
 
   <h3>Type in your work address and we can help you find where you could live!</h3>
 
 </div>
+<!-- this is the search bar code now -->
+
+<h2>Search Button</h2>
+
+<p>Full width:</p>
+<form class="example" action="/action_page.php">
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+
+<p>Centered inside a form with max-width:</p>
+<form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+  <input type="text" placeholder="Search.." name="search2">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+
+<!-- image for centre of page -->
 
 <div class="Enter">
 <img class="EnterSign" src="Images/Madrid-pin.jpg" alt="Madrid-Map" style="width:500px;height:500px;">
@@ -50,6 +58,6 @@ function closeNav() {
 
 
 
-
+<script src="js/Index.js"></script>
 
 </body>
