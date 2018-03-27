@@ -1,10 +1,128 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet"  href="css/stylesheet-index.css">
+  <style>
+  li {
+      display: inline; <!-- inline not working-->
+      padding: 0px 10px 0px 10px;
+    }
+  </style>
 </head>
+
 <body>
-  <p>Question 1</p>
-  <p>Question 2</p>
-  <p>Question 3</p>
+
+  <div class="Header">
+  <header>
+    <h1> Where do you want to live?<h1>
+  </header>
+  </div>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="Index.html">Home</a>
+    <a href="AboutPage.html">About us</a>
+    <a href="ContactPage.html">Contact us</a>
+
+  </div>
+
+  <span style="font-size:25px;cursor:pointer;" onclick="openNav()">&#9776; More Information </span>
+
+  <script>
+  function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+  }
+
+  function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
+
+<h1 class=initialquestion>Fill in our questionnaire and we'll find the perfect location for you to live in!</h1>
+
+<h2 class=Questions>What is your preferred mode of transport?</h2>
+
+<ol>
+  <div>
+    <li class=Options>Bus</li>
+  </div>
+  <div>
+    <img src="Images/Bus.jpg" alt= "A picture of a bus" class=img>
+  </div>
+  <div>
+    <input type="radio" name="transport" id="bus" value="bus" class="input">
+  </div>
+  <div>
+    <li class="Options">Metro</li>
+  </div>
+  <div>
+    <img src="Images/Metro.jpg" alt= "A picture of a train" class=img>
+ </div>
+ <div>
+   <input type="radio" name="transport" id="metro" value="metro" class=input>
+ </div>
+ <div>
+   <li class="Options">Cycling</li>
+ </div>
+ <div>
+   <img src="Images/Cycling.jpg" alt= "A picture of a bicycle" class=img>
+ </div>
+ <div>
+   <input type="radio" name="transport" id="cycling" value="cycling" class=input>
+ </div>
+</ol>
+
+<h2 class=Questions>What kind of activities do you like to do?</h2>
+<ol>
+  <div>
+    <li class="Options">Going to bars</li>
+  </div>
+  <div>
+    <img src="Images/Going to bars.jpg" alt= "A picture of a bar" class=img>
+  </div>
+  <div>
+    <input type="checkbox" name="activities" class=input>
+  </div>
+  <div>
+    <li class="Options">Sports</li>
+  </div>
+  <div>
+    <img src="Images/Sports.jpg" alt= "A picture of people doing sport" class=img>
+  </div>
+  <div>
+    <input type="checkbox" name="activities" class=input>
+  </div>
+  <div>
+    <li class="Options">Culture</li>
+  </div>
+  <div>
+    <img src="Images/Culture.jpg" alt= "A picture of a people in a museum" class=img>
+  </div>
+  <div>
+    <input type="checkbox" name="activities" class=input>
+  </div>
+</ol>
+
+<h2 class=Questions>What is your budget?</h2>
+<ol>
+  <div>
+    <li class="Options"></li>
+  </div>
+  <div>
+    <img src="Images/300-400.jpg" alt= "A picture of money" class=img>
+  </div>
+  <div class=multiplechoice>
+    <select>
+    <option value=""></option>
+    <option value="350">300-400€</option>
+    <option value="450">400-500€</option>
+    <option value="500+">500€+</option>
+  </select>
+  </div>
+</ol>
+
+<h2 class=Questions>Generate my answer</h2>
+<input type="submit" class=input>
+<script src="js/questions.js"></script>
 </body>
 </html>
