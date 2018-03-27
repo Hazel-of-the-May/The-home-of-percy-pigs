@@ -1,3 +1,7 @@
+<!-- i think this is too simple, I think we need to jazz it up and look up
+prettier and less childlike- need something more snazzy....-->
+<!-- maybe take it from the code first-->
+
 <!DOCTYPE html>
   <html>
   <head>
@@ -5,18 +9,13 @@
       <!--link href="css/bootstrap.css" rel="stylesheet"-->
       <!-- took bootstrap out because need to work ot how to get the format in without it disregarding it-->
       <link rel="stylesheet"  href="css/stylesheet-index.css">
-
-
-
     </head>
 
   <body>
     <div class="Welcome-banner">
+   <h1>Welcome to Madrid</h1>
 
-<header>
-   <h1>Welcome to Madird</h1>
-</header>
-
+<!--side navigation code-->
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="Index.html">Home</a>
@@ -24,7 +23,7 @@
   <a href="ContactPage.html">Contact us</a>
 
 </div>
-
+<!-- this navigation part is what opens the side bar open-->
 <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; More Information </span>
 
 <script>
@@ -36,7 +35,7 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 </script>
-
+<!-- end of script and this is what the body will contain, all these bits link to the css page-->
 <div class="QuestionStatement">
 
   <h3>Type in your work address and we can help you find where you could live!</h3>
