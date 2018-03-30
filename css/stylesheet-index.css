@@ -163,6 +163,7 @@ body {
   margin-right: auto;
   text-align:center;
 }
+
 /* css for the search box */
 
 .box{
@@ -171,10 +172,10 @@ body {
   height: auto;
 }
 
-.box input#search{
+.box input#search-postcode{
   width: 300px;
   height: 50px;
-  background: rgba(43, 48, 59, 0.5);
+  background: rgba(43, 48, 59, 1);
   border: none;
   font-size: 10pt;
   float: left;
@@ -203,3 +204,29 @@ body {
   top: calc(50% - 25px);
   left: calc(50% - 150px);
 }
+
+.container-1 input#search-postcode::-webkit-input-placeholder {
+   color: #65737e;
+}
+
+.container-1 input#search-postcode:-moz-placeholder { /* Firefox 18- */
+   color: #65737e;
+}
+
+.container-1 input#search-postcode::-moz-placeholder {  /* Firefox 19+ */
+   color: #65737e;
+}
+
+.container-1 input#search-postcode:-ms-input-placeholder {
+   color: #65737e;
+}
+
+.container-1 input#search-postcode:hover, .container-1 input#search-postcode:focus, .container-1 input#search:active{
+    outline:none;
+    background: #ffffff;
+    -webkit-transition: background .55s ease;
+-moz-transition: background .55s ease;
+-ms-transition: background .55s ease;
+-o-transition: background .55s ease;
+transition: background .55s ease;
+  }
