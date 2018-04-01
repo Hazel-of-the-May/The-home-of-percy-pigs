@@ -171,7 +171,7 @@ body {
    color: #65737e;
 }
 
-.container-1 input#search-postcode:hover, .container-1 input#search-postcode:focus, .container-1 input#search:active{
+.container-1 input#search-postcode:hover, .container-1 input#search-postcode:focus, .container-1 input#search-postcode:active{
     outline:none;
     background: #ffffff;
     -webkit-transition: background .55s ease;
