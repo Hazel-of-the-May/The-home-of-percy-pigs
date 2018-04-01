@@ -53,17 +53,17 @@ input[type=submit] {
   clear: both;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+/* Responsive layout - when the screen is less than 500px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
   .col-25, .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
 }
 
-/* css for the page layout on top fo the contact form */
+/* css link changes of colour*/
 a:link {
-    color: blue;
+    color: grey;
     background-color: transparent;
     text-decoration: none;
 }
@@ -125,7 +125,7 @@ footer {background: #66b3ff;color:white;}
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
+
 body {
     font-family: "Lato", sans-serif;
 }

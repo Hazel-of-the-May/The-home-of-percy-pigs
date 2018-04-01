@@ -1,20 +1,54 @@
 <!DOCTYPE html>
-
-<html>
 <head>
-
-    <meta name="viewport"
-    content="width=device=width, inital-scale=1">
-
-    <link rel="stylesheet"  href="CSS/stylesheet-AboutPage.css">
-    <link href="css/bootstrap.css" rel="stylesheet">
-
+    <title> Contact us </title>
+      <meta name="viewport"
+      content="width=device=width, inital-scale=1">
+        <link rel="stylesheet"  href="CSS/stylesheet-AboutPage.css">
 </head>
-<div class="Welcome-banner">
-  <h1>About Us</h1>
-<div id="explanation">
+
+
+<body>
+  <div class="Welcome-banner">
+    <h1>About Us</h1>
+
+
+<!--side navigation code-->
+  <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="Index.html">Home</a>
+      <a href="AboutPage.html">About us</a>
+      <a href="ContactPage.html">Contact us</a>
+
+  </div>
+<!-- this navigation part is what opens the side bar open-->
+    <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; More Information </span>
+
+
+<div class="explanation">
   <p>
     The purpose of this page is to help you, that's right, you. We wanted a site that was easy to use and would let you know have idea of where you would like to live when you move here. Assuming you're looking here
     because you want to move here. This site was created so all you have to do it know where you are going to work, how you prefer to travel across the city, what kind of area you like to live in and what your budget is. With
     this information we are happy to point you in the correct direction!!
   </p>
+</body>
+
+<footer> Website makers - The home of Percy Pigs
+<div>
+  <br>
+      <a href="http://www.facebook.com">Facebook</a>
+      <a href="http://www.twitter.com">Twitter</a>
+      <a href="http://www.instagram.com">Instagram</a>
+</div>
+</footer>
+
+<!-- script for the nav tab because it wasnt working -->
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
