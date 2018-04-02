@@ -5,10 +5,15 @@ prettier and less childlike- need something more snazzy....-->
 <!DOCTYPE html>
   <html>
   <head>
-    <title> Welcome to Navigate Madrid </title>
+
+    <meta name="viewport"
+    content="width=device=width, inital-scale=1">
+
+
+        <title> Welcome to Navigate Madrid </title>
       <!--link href="css/bootstrap.css" rel="stylesheet"-->
       <!-- took bootstrap out because need to work ot how to get the format in without it disregarding it-->
-      <link rel="stylesheet"  href="css/stylesheet-index.css">
+    <link rel="stylesheet"  href="css/stylesheet-index.css">
     </head>
 
   <body>
@@ -26,6 +31,34 @@ prettier and less childlike- need something more snazzy....-->
 <!-- this navigation part is what opens the side bar open-->
 <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; More Information </span>
 
+<!-- end of script and this is what the body will contain, all these bits link to the css page-->
+<div class="QuestionStatement">
+
+  <h3>Type in your work address and we can help you find where you could live!</h3>
+
+</div>
+<!-- this is the search bar code now -->
+<!-- image for centre of page version 2 since i fucked the other version up-->
+
+<div class="Enter">
+  <div class="box">
+    <div class="container-1">
+        <span class="icon"><i class="fa fa-search"></i></span>
+        <input type="search" id="search-postcode" placeholder="Enter your work postcode"/>
+    </div>
+</div>
+  <img class="EnterSign" src="Images/Madrid-pin.jpg" alt="Madrid-Map">
+</div>
+
+<script src="js/Index.js"></script>
+
+</body>
+<footer> Website makers - The home of Percy Pigs
+  <a href="http://www.facebook.com">Facebook</a>
+  <a href="http://www.twitter.com">Twitter</a>
+  <a href="http://www.instagram.com">Instagram</a>
+</footer>
+<!-- script for the nav tab because it wasnt working -->
 <script>
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
@@ -35,21 +68,7 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 </script>
-<!-- end of script and this is what the body will contain, all these bits link to the css page-->
-<div class="QuestionStatement">
-
-  <h3>Type in your work address and we can help you find where you could live!</h3>
-
-</div>
-
-<div class="Enter">
-<img class="EnterSign" src="Images/Madrid-pin.jpg" alt="Madrid-Map" style="width:500px;height:500px;">
-</div>
-
-<footer> Website makers - The home of Percy Pigs</footer>
+<script src="js/Index.js"></script>
 
 
-
-
-
-</body>
+</html>

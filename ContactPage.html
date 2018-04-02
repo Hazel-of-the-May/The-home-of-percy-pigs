@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+    <title> Contact us </title>
+      <meta name="viewport"
+      content="width=device=width, inital-scale=1">
+        <link rel="stylesheet"  href="CSS/stylesheet-ContactUs.css">
+
+
+
+</head>
+<body>
+  <div class="Welcome-banner">
+    <h1>Contact Us</h1>
+<!--side navigation code-->
+  <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="Index.html">Home</a>
+      <a href="AboutPage.html">About us</a>
+      <a href="ContactPage.html">Contact us</a>
+
+  </div>
+<!-- this navigation part is what opens the side bar open-->
+    <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; More Information </span>
+
+
+<!-- now to add the form for contact-->
+
+
+  <div class="container">
+  <form action="MessageSent.html">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="Where ya from">Where are ya from?</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="Atlantis">Atlanis</option>
+          <option value="Afghanistan">Afghanistan</option>
+          <option value="Argentina">Argentina</option>
+          <option value="australia">Australia</option>
+          <option value="austria">Austria</option>
+          <option value="canada">Canada</option>
+          <option value="Denmark">Denmark</option>
+          <option value="France">France</option>
+          <option value="Germany">Germany</option>s
+          <option value="Italy">Italy</option>
+          <option value="Kings Landing">Kings Landing</option>
+          <option value="THE MOON">THE MOON</option>
+          <option value="Mordor">Mordor</option>
+          <option value="Narnia">Narnia</option>
+          <option value="Neverland">Neverland</option>
+          <option value="The Emerald City">The Emerald City</option>
+          <option value="matrix">The Matirx</option>
+          <option value="United Kingdom">United Kingdom</option>
+          <option value="usa">USA</option>
+          <option value="Who-ville">Who-Ville</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="What is your query? Tell us your qualms...you could even write something nice :o " style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+
+</body>
+
+<footer> Website makers - The home of Percy Pigs
+  <a href="http://www.facebook.com">Facebook</a>
+  <a href="http://www.twitter.com">Twitter</a>
+  <a href="http://www.instagram.com">Instagram</a></footer>
+
+<!-- script for the nav tab because it wasnt working -->
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+</html>
