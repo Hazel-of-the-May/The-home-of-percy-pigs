@@ -88,7 +88,45 @@ body {
     letter-spacing: 0.05em;
 }
 
-
+/* paragrah where I ramble css */
 .explanation {
-  margin: 10px
+  margin-left:  60px;
+  margin-right: 60px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.madrid {
+  position = centre;
+  margin: 20px;
+  width: 70%;
+  height: auto;
+  border-radius: 25px;
+  border: 2px solid #250;
+
+}
+/* table css */
+#about-madrid {
+  position = centre;
+  margin-bottom: 250px;
+  width: 70%;
+  height: auto;
+  border-radius: 25px;
+  border: 2px solid #250;
+  font-family:sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#about-madrid tr:hover {background-color: #ddd;}
+
+#about-madrid th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-right: 10px;
+    margin-left: 5px;
+    text-align: centre;
+    background-color: #66b3ff;
+    color: white;
+
 }
