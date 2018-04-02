@@ -1,7 +1,24 @@
-function name() {
-  var transport = document.getElementById("transport").value;
+document.addEventListener("DOMContentLoaded", function() {
 
-  console.log(transport);
+function name() {
+var urlParams = new URLSearchParams(window.location.search);
+
+  console.log(urlParams.get('transport'));
 }
 
 name();
+
+});
+
+
+
+// switch (mode) {
+//     case bus:
+//         "bus" <> "";
+//         break;
+//     case metro:
+//         metro <> "";
+//         break;
+//     case cycling:
+//         cycling <> "";
+//         break;

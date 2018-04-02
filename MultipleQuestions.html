@@ -2,12 +2,14 @@
 <html>
 <head>
   <link rel="stylesheet"  href="css/stylesheet-index.css">
-  <style>
+  <!--<style>
   li {
-      display: inline; <!-- inline not working-->
+      display: inline; inline not working
       padding: 0px 10px 0px 10px;
     }
-  </style>
+  </style>-->
+
+  <script src="js/questions.js"></script>
 </head>
 
 <body>
@@ -38,6 +40,8 @@
   }
   </script>
 
+<form class="" action="ResultsPage.html" method="get">
+
 <h1 class=initialquestion>Fill in our questionnaire and we'll find the perfect location for you to live in!</h1>
 
 <h2 class=Questions>What is your preferred mode of transport?</h2>
@@ -48,8 +52,8 @@
   </div>
   <div>
     <img src="Images/Bus.jpg" alt= "A picture of a bus" class=img>
+    <div>
   </div>
-  <div>
     <input type="radio" name="transport" id="bus" value="bus" class="input">
   </div>
   <div>
@@ -104,10 +108,6 @@
 </ol>
 
 <h2 class=Questions>What is your budget?</h2>
-<ol>
-  <div>
-    <li class="Options"></li>
-  </div>
   <div>
     <img src="Images/300-400.jpg" alt= "A picture of money" class=img>
   </div>
@@ -119,10 +119,24 @@
     <option value="500+">500€+</option>
   </select>
   </div>
-</ol>
 
+  <!-- Select bus
+  <div class="select-for-bus">
+    <img src="bus pic" alt="">
+    <label for="bus"></label>
+    <input type="radio" name="transport" value="Bus">
+  </div>
+  Select metro
+  <div class="select-for-bus">
+    <img src="bus pic" alt="">
+    <label for="bus"></label>
+    <input type="radio" name="transport" value="metro">
+  </div>-->
+
+  <input type="submit" class=input>
+</form>
 <h2 class=Questions>Generate my answer</h2>
-<input type="submit" class=input>
-<script src="js/questions.js"></script>
+
+
 </body>
 </html>

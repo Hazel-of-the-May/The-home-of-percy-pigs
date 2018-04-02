@@ -2,11 +2,85 @@
 <html>
 
 <head>
-  <link rel="stylesheet"  href="CSS/QuestionPage.css">
-  <link href="css/bootstrap.css" rel="stylesheet">
-</head>
-<body>
-  <p>Ta Da! Your new home!</p>
+<link rel="stylesheet"  href="css/stylesheet-index.css">
 
+</head>
+
+<body>
+
+  <div class="Header">
+  <header>
+    <h1>We've found your new home!<h1>
+  </header>
+</div>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="Index.html">Home</a>
+    <a href="AboutPage.html">About us</a>
+    <a href="ContactPage.html">Contact us</a>
+
+  </div>
+
+  <span style="font-size:25px;cursor:pointer;" onclick="openNav()">&#9776; More Information </span>
+
+  <script>
+  function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+  }
+
+  function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
+
+  <h2 class="firstHeader">CONGRATULATIONS!</h2>
+
+  <h2 class="secondHeader">Your new home is:</h2>
+
+  <h1 class="Sol">SOL</h1>
+
+
+  <p class="paragraph">Why has this location been chosen for you?</p>
+  <ul class="list">
+    <li>It's the most central location in Madrid!</li>
+    <li>There are load of great places to eat!</li>
+    <li>It's connected to three different metro lines!</li>
+  </ul>
+
+<p class=moreInfo> Click on the images for more information.</p>
+
+<img id=myImg src="Images/Churreria.jpg" alt= "The typical Spanish 'churros con chocolate' can be found all over Spain, but why not try them in Madrid. The most famous churros can be found at the Churrería San Ginés, just two streets away from La Puerta del Sol. ¡Qué rico!" class=img2 width="300" height="200">
+
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<img id=myImg2 src="Images/Puerta del sol.jpg" alt= "'La Real Casa de Correos' or 'The House of the Post Office' was built as a post office in the 18th century, but is now used as the office of the President of the Comunidad de Madrid." class=img2 width="300" height="200">
+
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<img id=myImg3 src="Images/Statues.jpg" alt= "La Estatua del Oso y el Madroño' or 'The Statue of the Bear and the Strawberry Tree' is situated in La Puerta del Sol and dates from the second half of the 20th century. It represents the coat of arms of Madrid." class=img2 width="300" height="200">
+
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<div></div>
+
+<div id="location">
+La Puerta del Sol and the surrounding area may be a major attraction for tourists, but don't let that put you off it! Both Spaniards and people coming from abroad to live in Madrid call this area their home, and with so much to do you can see why. You're never short of bars, restaurants, theatres... and all at a stone's throw from your door. While the prices may not be cheap, the views and convenience certainly make up for it. Fans of churros will love the nearby churrerías. Fans of history will love the town hall. And fans of Tinder and Bumble will love the number of matches they get in this historic centre.
+</div>
+
+<button onclick="myFunction()" class= "showLessButton">Show less</button>
+
+<script src="js/results.js"></script>
 </body>
 </html>
