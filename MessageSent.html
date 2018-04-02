@@ -11,3 +11,37 @@
       <!-- took bootstrap out because need to work ot how to get the format in without it disregarding it-->
     <link rel="stylesheet"  href="css/stylesheet-index.css">
     </head>
+
+    <body>
+      <div class="Welcome-banner">
+     <h1>Your Message has been sent</h1>
+
+  <!--side navigation code-->
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="Index.html">Home</a>
+    <a href="AboutPage.html">About us</a>
+    <a href="ContactPage.html">Contact us</a>
+
+  </div>
+  <!-- this navigation part is what opens the side bar open-->
+  <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; More Information </span>
+
+  <footer> Website makers - The home of Percy Pigs
+    <a href="http://www.facebook.com">Facebook</a>
+    <a href="http://www.twitter.com">Twitter</a>
+    <a href="http://www.instagram.com">Instagram</a>
+  </footer>
+
+</body>
+
+  <script>
+  function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+  }
+
+  function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
+  <script src="js/Index.js"></script>
