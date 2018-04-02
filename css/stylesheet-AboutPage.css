@@ -95,5 +95,10 @@ body {
 
 .madrid {
   position = centre;
-  margin: 40px;
+  margin: 20px;
+  width: 70%;
+  height: auto;
 }
+
+<meta name="madrid" content="width=device-width, initial-scale=1">
+<style>
