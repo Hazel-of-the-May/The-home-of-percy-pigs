@@ -253,6 +253,7 @@ transition: background .55s ease;
   margin-right: auto;
   text-align:center;
 }
+/* css for the message sent page */
 
 .Thank_you {
   margin-bottom: 500px;
@@ -260,4 +261,19 @@ transition: background .55s ease;
   margin-top: 50px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.footer {
+  background: #66b3ff;
+  position: centre;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  -webkit-flex: 1 100%;
+  flex: 1 100%;
+}
+
+
 }
