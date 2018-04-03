@@ -202,13 +202,17 @@ transition: background .55s ease;
   }
 
 .Header{
-  text-align: center;
-  font-size: 15px;
-  padding: 15px;
-  background-color: black;
-  -webkit-flex: 1 100%;
-  flex: 1 100%;
-}
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    color: white;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+    background: #66b3ff;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 .initialquestion {
   font-size: 25px;

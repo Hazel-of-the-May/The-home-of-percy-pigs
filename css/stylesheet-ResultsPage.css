@@ -205,9 +205,13 @@ transition: background .55s ease;
   text-align: center;
   font-size: 15px;
   padding: 15px;
-  background-color: black;
+  color: white;
   -webkit-flex: 1 100%;
   flex: 1 100%;
+  background: #66b3ff;
+  position: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .initialquestion {
@@ -271,13 +275,13 @@ color: black;
 text-align: center;
 font-size: 50px;
 padding: 15px;
-color: red;
+color: black;
 width: 300px;
 border: 5px solid black;
 margin: 25px;
 margin-left: auto;
 margin-right: auto;
-background-image:url("Cycling.jpg");
+background-color:lightblue;
 }
 
 .paragraph {
