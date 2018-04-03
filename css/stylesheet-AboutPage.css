@@ -7,12 +7,12 @@
 
 .Welcome-banner{
     text-align: center;
+
 }
 
 
-
 header {background: #66b3ff;color:white;}
-footer {background: #66b3ff;color:white;}
+.footer {background: #66b3ff;color:white;}
 .nav {background:#eee;}
 
 .nav ul {
