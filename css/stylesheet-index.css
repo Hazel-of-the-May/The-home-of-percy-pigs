@@ -207,7 +207,7 @@ transition: background .55s ease;
   text-align: center;
   font-size: 15px;
   padding: 15px;
-  background-color: black;
+  background-color: #000000;
   -webkit-flex: 1 100%;
   flex: 1 100%;
 }
