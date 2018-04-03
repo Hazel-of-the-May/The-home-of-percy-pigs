@@ -184,7 +184,7 @@ transition: background .55s ease;
   /* button for submit to Question page */
   input.MyButton {
   width: 100px;
-  margin-left: 200px;
+  margin-left: 100px;
   padding: 10px;
   cursor: pointer;
   font-weight: bold;
