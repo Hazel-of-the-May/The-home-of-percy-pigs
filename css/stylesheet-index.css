@@ -153,6 +153,7 @@ body {
   position: absolute;
   top: calc(50% - 25px);
   left: calc(50% - 150px);
+
 }
 
 .container-1 input#search-postcode::-webkit-input-placeholder {
