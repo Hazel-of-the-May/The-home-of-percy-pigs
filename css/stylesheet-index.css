@@ -233,3 +233,11 @@ transition: background .55s ease;
   margin-right: auto;
   text-align:center;
 }
+
+.Thank_you {
+  margin-bottom: 500px;
+  position: centre;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
