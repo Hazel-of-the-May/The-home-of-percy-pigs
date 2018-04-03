@@ -130,3 +130,15 @@ body {
     color: white;
 
 }
+
+.footer {
+  background: #66b3ff;
+  position: centre;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  -webkit-flex: 1 100%;
+  flex: 1 100%;
+}
